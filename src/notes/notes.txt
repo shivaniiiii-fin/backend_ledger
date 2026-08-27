@@ -1,0 +1,4 @@
+"I used Nodemailer to enable automated emails from my Node.js backend. Since Gmail needs secure authorization, I configured OAuth 2.0. 
+I registered the application in Google Cloud to obtain a client ID & client secret, then authorized a Gmail account with the required scope.
+The OAuth flow generated tokens, including a refresh token, which allows the application to obtain valid access tokens when needed. 
+Nodemailer uses this authentication to send emails automatically through Gmail."
