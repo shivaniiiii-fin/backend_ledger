@@ -20,6 +20,12 @@ const userSchema=mongoose.Schema({
         required:[true,"Password is required for creating and account"],
         minlength:[6,"Password should contain more than 6 characters"],
         select: false
+    },
+    systemUser: {
+        type: Boolean,
+        default: false,
+        immutable: true,
+        select: false
     }
 },{
     timestamps:true
